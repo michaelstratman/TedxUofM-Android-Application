@@ -1,0 +1,62 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="About TED"
+            android:textColor="@color/ted_white"
+            android:textSize="20dp" android:layout_width="fill_parent"/>
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ted_info_about_ted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:padding="15dp"
+                    android:text="@string/ted_about"
+                    android:textColor="@color/ted_white" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="bottom|center" android:layout_margin="10dp" android:layout_weight=".1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:clickable="true"
+                android:onClick="goto_fb_TED"
+                android:src="@drawable/facebook_icon" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:clickable="true"
+                android:onClick="goto_twitter_TED"
+                android:src="@drawable/twitter_icon" />
+        </LinearLayout>
+
+    </LinearLayout>

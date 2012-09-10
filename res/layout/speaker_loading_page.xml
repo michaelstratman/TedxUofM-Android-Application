@@ -1,0 +1,33 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/loading_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_gravity="center_vertical|fill_vertical|center">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading Speakers..."
+                android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center"/>
+            <ProgressBar 
+                android:id="@+id/speaker_loading_bar"
+				    android:progressDrawable="@drawable/progress_bar_states"
+				    android:layout_width="fill_parent" style="?android:attr/progressBarStyleHorizontal" 
+				    android:indeterminateOnly="false" 
+				    android:max="100" android:layout_height="wrap_content" android:padding="10dp" android:layout_margin="5dp">
+				</ProgressBar>
+
+           
+        </LinearLayout>
+
+    </LinearLayout>

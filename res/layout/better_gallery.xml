@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monkeyseemonkeydo.widgets.LockingHorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fadingEdge="none">
+
+    <com.monkeyseemonkeydo.widgets.WideLinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	    <include layout="@layout/about_conference" />
+	    <include layout="@layout/about_ted" />
+	    <include layout="@layout/about_tedx" />
+    </com.monkeyseemonkeydo.widgets.WideLinearLayout>
+
+</com.monkeyseemonkeydo.widgets.LockingHorizontalScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/logo" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="5dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ted_red"
+                android:onClick="gotoSpeakers"
+                android:padding="10dp"
+                android:text="Speakers"
+                android:textColor="@color/ted_white" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="5dp">
+
+            <Button
+                android:id="@+id/home_bt_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ted_red"
+                android:onClick="gotoSchedule"
+                android:padding="10dp"
+                android:text="Schedule"
+                android:textColor="@color/ted_white" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="5dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ted_red"
+                android:onClick="gotoInfo"
+                android:padding="10dp"
+                android:text="TED Info"
+                android:textColor="@color/ted_white" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:padding="5dp">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ted_red"
+                android:onClick="gotoNotes"
+                android:padding="10dp"
+                android:text="Notes"
+                android:textColor="@color/ted_white" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
