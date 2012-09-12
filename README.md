@@ -3,13 +3,6 @@ TedxUofM-Android-Application
 
 https://play.google.com/store/apps/details?id=com.Tedx.UofM&feature=nav_result#?t=W251bGwsMSwyLDNd
 
-<OWNER> = Michael Stratman
-<ORGANIZATION> = TedxUofM
-<YEAR> = 2012
-
-In the original BSD license, both occurrences of the phrase "COPYRIGHT HOLDERS AND CONTRIBUTORS" in the disclaimer read "REGENTS AND CONTRIBUTORS".
-
-Here is the license template:
 
 Copyright (c) 2012, Michael Stratman
 All rights reserved.
